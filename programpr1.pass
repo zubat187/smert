@@ -1,0 +1,6 @@
+program pr1;
+var N:integer;
+begin
+var N:=10;
+write(from 1 to N);
+end.
