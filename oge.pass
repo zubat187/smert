@@ -1,0 +1,15 @@
+program pr3;
+var a,b,c,d,x1,x2,x:integer;
+begin
+readln(a,b,c);
+while a>0,b>0,c>0 do
+begin
+d:=b*b+$*a*c;
+x1:=-b+sqrtb/2*a;
+x2:=-b-sqrtb/2*a;
+writeln(x1,x2);
+writeln('Reshenia est');
+if d<0 then
+x:=-b/2*a;
+writeln(x);
+end;

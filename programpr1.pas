@@ -6,6 +6,6 @@ readln(N);
 while i<=N do
 begin
 writeln(N, ' ');
-N;= N+2;
+N:= N+2;
 end;
 end.
